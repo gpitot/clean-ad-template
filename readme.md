@@ -11,8 +11,7 @@
 # Hosting 
 1. go to appnexus
 2. create new hosted html5 
-3. change mode to PROD = true
-4. upload build folder (zipped)
+3. upload build folder (zipped)
 
 # Testing
 1. view preview of hosted html5 (previous step) , view source, get url 
