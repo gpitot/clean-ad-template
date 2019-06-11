@@ -47,7 +47,7 @@ html, body {
       
       #siteContent{
         position: relative;
-        width: 1030px;
+        width: 1026px;
         height: 1100px;
         overflow: visible;
         cursor: pointer;
@@ -123,6 +123,13 @@ html, body {
         right:-90px;
         bottom:-90px;
     }
+
+
+    #bigwlogo {
+        position:absolute;
+        right:15px;
+        bottom : 220px;
+    }
 }
 
 
@@ -146,6 +153,12 @@ html, body {
         height:298px;
         right:67px;
         bottom:-110px;
+    }
+
+    #christmas {
+        position:absolute;
+        left:15px;
+        bottom : 220px;
     }
 }
 
