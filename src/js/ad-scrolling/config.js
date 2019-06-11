@@ -5,7 +5,34 @@ const nineDigital = {
     fireplaceLeftMargin : 0,
     adNodeMarginTop : -32,
     adNodeMarginBottom : 0,
-    responsiveScroll : -148
+    responsiveScroll : -148,
+    zIndex : function() {
+        
+        const article = window.parent.document.querySelector('article');
+        if (article) {
+            article.style.position = "relative";
+            article.style.zIndex = "1";
+        }
+
+        const bread = window.parent.document.querySelector('ol[typeof="BreadcrumbList"]');
+        if (bread) {
+            if (bread.parentElement) {
+                bread.parentElement.style.position="relative";
+                bread.parentElement.nextElementSibling.style.position="relative";
+            }
+        }
+
+        const kitchenIndex = window.parent.document.querySelector('#Index');
+        if (kitchenIndex) {
+            kitchenIndex.style.position = "relative";
+        }
+
+        const mastheadAnchor = window.parent.document.getElementById('mastheadAnchorToggle');
+        if (mastheadAnchor) {
+            mastheadAnchor.style.zIndex = "6";
+        }
+        
+    }
 }
 
 
@@ -34,27 +61,27 @@ export default [
     },
     {
         site : "https://travel" ,
-        nineDigital
+        config : nineDigital
     },
     {
         site : "https://honey" ,
-        nineDigital
+        config : nineDigital
     },
     {
         site : "https://style" ,
-        nineDigital
+        config : nineDigital
     },
     {
         site : "https://coach" ,
-        nineDigital
+        config : nineDigital
     },
     {
         site : "https://kitchen" ,
-        nineDigital
+        config : nineDigital
     },
     {
         site : "https://entertainment.preview" ,
-        nineDigital
+        config : nineDigital
     },
 
     {
