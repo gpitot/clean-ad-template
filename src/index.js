@@ -1,4 +1,4 @@
-import Map from './js/map';
+
 import AdScrolling from './js/ad-scrolling';
 import Tracker from './js/tracking';
 
@@ -33,12 +33,7 @@ function htmlLoaded() {
 
     //images
     loadImages(parent, hostingLocation, () => {
-        const dimensions = {
-            rows : 3,
-            cols : 12,
-        }
-        const parentEl = document.getElementById('game');
-        new Map({dimensions, parentEl})
+        //begin app
     })
 }
 
