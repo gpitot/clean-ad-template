@@ -6,24 +6,14 @@
       
     </div>
     <div id="leftPanel">
-      <div id="circle1" class="circle"></div>
-      <div id="circle2" class="circle"></div>
-      <div id="circle3" class="circle"></div>
-
-      <img data-path="images/buynow.png" alt="" id="bigwlogo">
+     
     </div>
     <div id="rightPanel">
-        <div id="circle4" class="circle"></div>
-        <div id="circle5" class="circle"></div>
-        <div id="circle6" class="circle"></div>
-
-        <img data-path="images/buynow.png" alt="" class="mania">
-        <img data-path="images/christmas.png" alt="" id="christmas">
+        
     </div>
     <div id="siteContent">
       <div id="nineMasthead">
         
-        <div id = "game"></div>
 
 
       </div>
